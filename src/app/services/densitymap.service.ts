@@ -5,13 +5,14 @@ import {Observable} from 'rxjs/Rx';
 import 'rxjs/add/operator/map';
 import 'rxjs/add/operator/catch';
 @Injectable()
-export class GeoRouteService {
+export class DensityMapService {
     constructor(private http:Http)  {
 
     }
 
-     public getRoute(id: number): Observable<any> {
-         return this.http.get("/assets/routes/route" + id + ".geojson")
-            .map((res:any) => res.json());
+     public getLocations(): Observable<any>{
+         return this.http.get("/assets/locations/locations1.json").map((response:any) =>
+                response.json());
+            
      }
 }

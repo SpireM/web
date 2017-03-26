@@ -35,13 +35,16 @@
     "font-awesome": "^4.6.3",
     "intl": "^1.2.5",
     "leaflet": "^1.0.1",
+    "leaflet.heat": "^0.2.0",
     "rxjs": "^5.0.1",
     "stubby": "^4.0.0",
-    "ts-helpers": "^1.1.1",
-    "zone.js": "^0.7.2"
+    "ts-helpers": "^1.1.1", 
+    "zone.js": "^0.7.2",
+    "geojson-vt": "2.4.0",
+    "leaflet.vectorgrid": "1.2.0"
   },
   "devDependencies": {
-    "@angular/cli": "^1.0.0-beta.32.3",
+    "@angular/cli": "^1.0.0",
     "@angular/compiler-cli": "^2.4.0",
     "@angularclass/hmr": "^1.2.2",
     "@types/jasmine": "2.5.38",
@@ -63,6 +66,6 @@
     "protractor": "~5.1.0",
     "ts-node": "1.2.1",
     "tslint": "^4.3.0",
-    "typescript": "~2.0.0"
+    "typescript": "~2.1.0"
   }
 }
